@@ -25,6 +25,7 @@ main {
     background-color: #E5E5E5;
     gap: 5px;
     padding: 35px 19px;
+    box-shadow: inset rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .delivery-box {
     height: 350px;
