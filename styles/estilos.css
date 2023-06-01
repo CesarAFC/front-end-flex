@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 header {
     background-color: #222222;
@@ -35,6 +36,9 @@ main {
     color: red;
     padding: 20px;
 }
+.delivery-box span {
+    color: #fff;
+}
 .podio{
     height: 350px;
     width: 490px;
@@ -59,15 +63,15 @@ main {
     gap: 20px;
     font-size: bold;
 }
-.pizza-list > ol > li {
-    font-size: bold;
+.pizza-list li {
+    font-weight: 700;
     padding-bottom: 10px;
 }
 
 footer {
     background-color: #222222;
     color: #fff;
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,7 +82,16 @@ footer > img {
 .footer-navbar{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 12px;
+}
+.footer-navbar .item-2 {
+    order: 3;
+}
+.footer-navbar .item-3 {
+    order: 4;
+}
+.footer-navbar .item-4 {
+    order: 2;
 }
 .footer-navbar > li {
     list-style-type: none;
